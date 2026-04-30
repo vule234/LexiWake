@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Design Tokens từ Stitch HTML */
+@theme {
+  /* Colors - Light Mode */
+  --color-primary: #3525cd;
+  --color-primary-container: #4f46e5;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #dad7ff;
+  --color-on-primary-fixed: #0f0069;
+  --color-on-primary-fixed-variant: #3323cc;
+
+  --color-secondary: #00687a;
+  --color-secondary-container: #57dffe;
+  --color-secondary-fixed: #acedff;
+  --color-secondary-fixed-dim: #4cd7f6;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #006172;
+  --color-on-secondary-fixed: #001f26;
+  --color-on-secondary-fixed-variant: #004e5c;
+
+  --color-tertiary: #684000;
+  --color-tertiary-container: #885500;
+  --color-tertiary-fixed: #ffddb8;
+  --color-tertiary-fixed-dim: #ffb95f;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #ffd4a4;
+  --color-on-tertiary-fixed: #2a1700;
+  --color-on-tertiary-fixed-variant: #653e00;
+
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+
+  --color-surface: #f8f9fa;
+  --color-surface-dim: #d9dadb;
+  --color-surface-bright: #f8f9fa;
+  --color-surface-container: #edeeef;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e7e8e9;
+  --color-surface-container-highest: #e1e3e4;
+  --color-surface-variant: #e1e3e4;
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #464555;
+
+  --color-background: #f8f9fa;
+  --color-on-background: #191c1d;
+
+  --color-outline: #777587;
+  --color-outline-variant: #c7c4d8;
+
+  --color-inverse-surface: #2e3132;
+  --color-inverse-on-surface: #f0f1f2;
+  --color-inverse-primary: #c3c0ff;
+
+  /* Typography */
+  --font-family-headline: "Be Vietnam Pro", sans-serif;
+  --font-family-body: "Inter", sans-serif;
+  --font-family-label: "Inter", sans-serif;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+  --radius-full: 9999px;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-family-body);
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Glass Card Effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Kinetic Gradient */
+.kinetic-gradient {
+  background: linear-gradient(135deg, #3525cd 0%, #4f46e5 100%);
+}
+
+/* Celebration Gradient */
+.celebration-gradient {
+  background: linear-gradient(135deg, #3525cd 0%, #4f46e5 100%);
+}
